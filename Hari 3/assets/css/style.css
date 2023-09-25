@@ -1,0 +1,16 @@
+footer {
+  background-color: #333;
+  color: #fff;
+  text-align: center;
+  padding: 7px;
+}
+
+/* Teks kecil di sudut kanan atas */
+.small-text {
+  position: absolute;
+  padding-right: 1px;
+  top: 1px; /* Jarak dari atas */
+  right: 20px;  /* Jarak dari kanan */
+  font-size: 10px; /* Ukuran teks */
+  color: #ccc;
+}

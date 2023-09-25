@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Looping Maju dan Mundur</title>
+</head>
+<body>
+  <h1>Looping Maju dan Mundur</h1>
+  <h3>Looping Pertama</h3>
+  <div id="jawaban1"></div>
+
+  <h3>Looping Kedua</h3>
+  <div id="jawaban2"></div>
+
+  <script>
+    var jawaban1 = "LOOPING PERTAMA<br>";
+    // Loop maju
+    for (var i = 1; i <= 20; i++) {
+      if (i % 2 === 0) {
+        jawaban1 += i + " - I love coding<br>";
+      }
+    }
+
+    var jawaban2 = "LOOPING KEDUA<br>";
+    // Loop mundur
+    for (var i = 20; i >= 1; i--) {
+      if (i % 2 === 0) {
+        jawaban2 += i + " - I will become web developer<br>";
+      }
+    }
+
+    document.getElementById("jawaban1").innerHTML = jawaban1;
+    document.getElementById("jawaban2").innerHTML = jawaban2;
+  </script>
+</body>
+</html>
