@@ -1,0 +1,5 @@
+Motivasi saya mengikuti Bootcamp Laravel Web Dev ini 
+untuk menambah ilmu dan pengalaman saya mengenai cara pembuatan Website.
+Harapan saya semoga untuk kedepannya pembelajaran yang saya dapatkan 
+dari bootcamp ini berguna dan dapat saya aplikasikan, serta saya dapat
+bergabung menjadi salah satu Web Developer di GCI ataupun DUDI yang lain
